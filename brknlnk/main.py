@@ -3,7 +3,7 @@ import argparse
 from url_check import URLCheck
 
 def main():
-    parser = argparse.ArgumentParser("brkn-lnk", description="Check if link is broken")
+    parser = argparse.ArgumentParser("brknlnk", description="Check if link is broken")
     parser.add_argument("url", help="Link to check", nargs='+')
     parser.add_argument("--workers", type=int, default=20, help="Number of concurrent requests made")
     parser.add_argument("--timeout", type=int, default=5, help="Time to wait for a response before failing a request, supplied in seconds.")
