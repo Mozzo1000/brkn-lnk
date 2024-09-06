@@ -1,6 +1,6 @@
 from multiprocessing.pool import ThreadPool
 import csv
-from brknlnk.utils import uri_validator
+from utils import uri_validator
 from dataclasses import dataclass
 from collections import namedtuple
 import tqdm

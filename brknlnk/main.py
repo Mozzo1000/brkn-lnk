@@ -1,6 +1,6 @@
 
 import argparse
-from brknlnk.url_check import URLCheck
+from url_check import URLCheck
 
 def main():
     parser = argparse.ArgumentParser("brkn-lnk", description="Check if link is broken")
