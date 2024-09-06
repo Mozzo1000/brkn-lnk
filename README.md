@@ -1,6 +1,15 @@
 # brkn-lnk
 brkn-lnk (broken link) is a link checker
 
+# Install
+>[!NOTE]
+> Binaries are only provided for Windows. 
+> 
+> The software has only been tested on Windows 11 but may work on other platforms if built from source.
+1. Download latest release from the [releases page](https://github.com/Mozzo1000/brkn-lnk/releases) 
+2. Save the .exe file in a folder of your choosing.
+3. Edit your PATH environment variable to point to the folder that contains the .exe file.
+   1. See https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/ for how to edit PATH.
 
 # Usage
 ## Check single url
